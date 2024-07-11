@@ -1,0 +1,341 @@
+body {
+    background-color:blueviolet;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font:15/1.5px arial helvetica;
+    margin:0;
+    padding:0;
+   
+   
+   }
+
+
+
+#current{
+    color: red;
+    border-bottom: 1px solid;
+    
+}
+
+
+  /*RWD*/
+
+  .container-1{
+    width:1000px; 
+    margin:auto;
+    overflow:hidden;
+}
+
+@media(max-width:600px) and (orientation:landscape){
+    .container-1 {
+        width:100%; 
+        margin:auto;
+    }
+}
+
+@media(max-width:600px) and (orientation:portrait){
+    .container-1 {
+        width:100%; 
+        margin:auto;
+    }
+}
+
+@media(min-width:601px) and (max-width:768px){
+    .container-1 {
+        width:100%; 
+        margin:auto;
+    }
+}
+
+
+
+
+   /* .h3_catalog{
+    text-align:center;
+    color:blue;
+    text-transform: uppercase;
+    margin-top: 5%;
+   } */
+
+    #margin-top{
+        margin-top:10%;
+    } 
+
+
+/* boxes */
+
+ #boxes{
+    min-height:400px;
+    /* background-color:blue; */
+    margin-bottom: none;
+    margin-top:20px;
+   
+}  
+
+
+
+ 
+.zoom-on-hover{
+    transition:transform 0.3s ease-in-out;
+}
+
+
+
+.zoom-on-hover:hover{
+    transform:scale(1.8);
+}
+
+
+
+
+
+#boxes P{
+   color:#fff; 
+   font-size: 15px;
+}
+
+
+
+
+
+/*boxes1*/
+
+#boxes .box-1{
+
+        float:left;
+        width:100px;
+        /* padding:10px; */
+        /* border:3px solid blue; */
+         margin-left:130px; 
+        /* width:100px; */
+        cursor:pointer;
+
+
+}
+
+
+#boxes .box-1 .img{
+
+    margin-left:10px; 
+    /* width:200px; */
+    /* border:2px solid blue; */
+    width:100px;
+    
+}
+
+
+
+.h{
+    margin-left:95%;
+    margin-top:10px;
+    color:#fff;
+}
+
+a{
+    color:#fff;
+}
+
+
+
+
+/*boxes2*/
+
+
+.h3_catalog{
+    color:#fff;
+}
+
+#boxes .box-2{
+
+    float:left;
+    width:100px;
+    /* padding:10px; */
+    /* border:3px solid blue; */
+    margin-left:130px;
+    /* width:10px; */
+    cursor:pointer;
+    
+
+
+}
+
+
+#boxes .box-2 .img{
+
+margin-left:10px; 
+/* width:200px; */
+/* border:2px solid blue; */
+width:100px;
+
+}
+
+
+
+
+/*boxes3*/
+
+
+
+ #boxes .box-3{
+
+    float:left;
+    width:100px;
+    padding:10px; 
+    /* border:3px solid blue; */
+    margin-left:130px;
+    /* width:100px; */
+    cursor:pointer;
+    
+
+
+}
+
+
+#boxes .box-3 .img{
+
+margin-left:5px; 
+/* width:200px; */
+/* border:2px solid blue; */
+width:100px;
+
+} 
+
+
+
+/*boxes4*/
+
+#boxes .box-4{
+padding: 5px;
+    float:left;
+    width:100px;
+    margin-left:130px;
+    cursor:pointer;
+
+
+}
+
+
+#boxes .box-4 .img{
+
+margin-left:10px; 
+width:100px;
+
+} 
+
+
+
+/*boxes5*/
+
+
+
+#boxes .box-5{
+
+    float:left;
+    width:100px;
+    margin-left:200px;
+    cursor:pointer;
+    padding: 5px;
+
+
+}
+
+
+#boxes .box-5 .img{
+
+margin-left:10px; 
+width:100px;
+
+}  
+
+
+
+
+/*newsltter*/
+
+#newsletter{
+    background:gray;
+     padding: 15px; 
+    width:none;
+    color:white;
+    border-bottom:orange 5px solid;
+    min-height:70px;
+    
+    
+}
+
+
+#newsletter h3{
+        
+        text-transform: uppercase;
+        font-size: 20px;
+}
+
+
+
+
+
+#newsletter form { 
+    
+     float:right; 
+     margin-top:-30px;
+
+
+}
+
+
+#newsletter .button_1 {
+    color:white;
+    background: red;
+}
+
+ 
+
+#newsletter input [ type="email"] {
+    width:250px;
+    font-size: 18px;
+    height: 25px;
+    padding:4px;
+}
+
+
+
+/*footer*/
+
+
+
+footer  {
+    padding:10px;
+    text-align:center;
+    color:whitesmoke;
+    background-color: black;
+    font-weight:100px;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

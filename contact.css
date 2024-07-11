@@ -1,0 +1,264 @@
+
+
+
+body {
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+   }
+
+
+
+   /*RWD*/
+
+   .containerr{
+    width: 1000px; 
+    margin:auto;
+}
+
+@media(max-width:600px) and (orientation:landscape){
+    .containerr {
+        width:100%; 
+        margin:auto;
+    }
+}
+
+@media(max-width:600px) and (orientation:portrait){
+    .containerr {
+        width:100%; 
+        margin:auto;
+    }
+}
+
+@media(min-width:601px) and (max-width:768px){
+    .containerr {
+        width:100%; 
+        margin:auto;
+    }
+}
+
+
+
+#current{
+    color: red;
+    border-bottom: 1px solid;
+    
+}
+
+
+
+
+/*Form*/
+
+.request{
+    min-height: 300px;
+    /* width:100%; */
+    margin-top: 8%;
+
+}
+
+
+.form-header{
+    
+    
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 100px;
+    width:40%;
+    background-color:#e6e6e6 ;
+    border-bottom: 1px solid #13044e;
+    padding:20px 40px;
+    color:#13044e;
+        
+}
+
+
+
+form input{
+
+    display:block;
+    font-size:15px;
+    /* padding:5px; */
+    margin-left: 20px;
+}
+
+
+
+
+form button{
+    background-color:red;
+    color:white;
+    border:2px solid #8e44;
+    padding:10px;
+    width:10px;
+    font-size: 15px;
+    margin-left: 20px;
+    
+    
+}
+
+
+
+
+
+
+/*contact*/
+
+#branding-11 {
+    min-height: 400px;
+    background-color: #e6e6e6;
+    color:#13044e; 
+    padding:20px;
+}
+
+
+
+#branding h3 {
+    text-transform: uppercase;
+    margin-left: 30px;
+ }
+
+
+#branding p{
+    margin-left:30px;
+    font-size: 18px;
+    width: 30%;
+    height: 20%;
+}
+
+
+
+
+/*section-media*/
+
+.containerr .branding-2{
+
+        min-height: 20px;
+        background-color:#e6e6e6;
+        color:#13044e;
+        font-weight: 400px;
+        padding:20px;
+    }
+
+ 
+     .branding-2 p{
+        margin-left:23px;
+        font-size: 18px;
+        color:#0d0c11;
+
+    } 
+
+
+    .branding-2 a{
+
+        margin-left:20px;
+    }
+
+    .link{
+        margin-left:40%;
+    }
+
+
+    .branding-2 h3{
+        margin-left:23px;
+        font-size: 18px;
+        color:#0d0c11;
+
+    } 
+
+
+
+
+    
+    
+
+
+   
+
+
+
+
+
+
+
+/*newsltter*/
+
+#newsletter{
+    background:gray;
+     padding: 15px; 
+    width:none;
+    color:white;
+    border-bottom:orange 5px solid;
+    min-height:70px;
+    /* font-size: 20px;
+    margin-top: 15px; */
+    
+}
+
+
+#newsletter h3{
+        font-size: 20px;
+}
+
+
+
+
+
+#newsletter form { 
+     float:right; 
+     margin-top:-40px;
+
+
+}
+
+ 
+ 
+
+/* #newsletter input [ type="email"] {
+    
+    font-size: 18px;
+    height: 25px;
+    padding:4px; 
+} */
+
+
+
+#newsletter input{
+    width:240px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+
+
+#newsletter .button_1{
+    color:white;
+    background: red;
+}
+
+
+
+/*footer*/
+
+
+
+footer  {
+    padding:20px;
+    margin-left:40%;
+    color:whitesmoke;
+    /* background-color: black; */
+    font-weight:100px;
+
+    
+}
+
+
+
+
+
+   
+   

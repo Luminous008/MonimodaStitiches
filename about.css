@@ -1,0 +1,395 @@
+
+
+
+
+
+
+#current{
+    color: red;
+    border-bottom: 1px solid;
+    
+}
+
+
+
+
+        /*RWD*/
+
+        .containerr{
+            width: 100%;
+            margin:auto;
+            
+        }
+        
+        @media(max-width:600px) and (orientation:landscape){
+            .containerr {
+                width:100%; 
+                margin:auto;
+            }
+        }
+        
+        @media(max-width:600px) and (orientation:portrait){
+            .containerr {
+                width:100%; 
+                margin:auto;
+            }
+        }
+        
+        @media(min-width:601px) and (max-width:768px){
+            .containerr {
+                width:100%; 
+                margin:auto;
+            }
+        }
+
+
+    
+/*newsltter*/
+
+#newsletter{
+    background:gray;
+    padding: 20px; 
+    width:100%;
+    color:white;
+    border-bottom:orange 3px solid;
+    min-height:70px;
+    margin-top: 5%;
+    
+}
+
+
+#newsletter h3{
+    /* float:left;  */
+/* margin-top:15px; */
+text-transform: uppercase;
+font-size: 20px;
+padding: 15px;
+}
+
+#newsletter form { 
+    /* margin-left: 70%;  */
+    float:right; 
+    margin-top:-40px;
+
+
+}
+
+
+
+
+#newsletter input{
+   width:240px;
+   text-align: center;
+   border-bottom: 2px solid white;
+   font-size: 18px;
+   margin-top: -16px;
+}
+
+#newsletter .button_1 {
+    color:white;
+    background: red;
+}
+
+
+
+/*main*/
+
+#main h3 {
+    /* text-align:center;*/
+
+    color:white;
+    margin-left:100px;
+    width:300px;
+
+}
+
+
+
+#main figure img {
+
+    border: solid blue 1px;
+    width:200px;
+    margin-left:80%;
+    margin-top: 0px;
+
+    
+} 
+
+#main figcaption {
+    color:grey;
+    margin-left: 80%;
+}
+
+
+#showcase{
+    min-height: 300px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.dark_1{
+        background-color: #ffffff;
+        color:blue;
+        font-size:15px;
+        font-family:Arial;
+        width:65%;
+        margin-top:-20%;
+        margin-left: 20px;
+        padding:10px;
+        margin-bottom: 20px;
+
+}
+
+.dark_1 h3{
+    margin-left:40px;
+    font-size: 23px;
+}
+
+
+.dark_1 p{
+margin-left:20px;
+font-weight: 300px;
+font-size:20px;
+padding: 20px;
+}
+
+
+
+
+.dark_2{
+background-color: #e6e6e6;
+color:blue;
+font-size:15px;
+font-family:Arial;
+width:70%;
+margin-top:-5px;
+margin-left:20px;
+padding:20px;
+
+}
+
+.dark_2 p{
+    margin-left:20px;
+    font-weight: 300px;
+    font-size:20px;
+    padding: 20px;
+}
+
+
+
+.dark_3{
+    background-color:#ffffff;
+    color:blue;
+    font-size:15px;
+    font-family:Arial;
+    width:70%;
+    margin-top:5px;
+    margin-left:20px;
+    padding:10px;
+    margin-bottom: 10px;
+
+}
+
+.dark_3 p{
+    margin-left:20px;
+    font-weight: 300px;
+    font-size:20px;
+    padding: 20px;
+}
+
+
+.red{
+    color:red;
+}
+
+
+
+
+
+
+/*contact*/
+
+#branding {
+    min-height: 100px;
+    background-color: #e6e6e6;
+    color:#13044e;
+    font-size: 18px;
+    /* text-align:center; */
+    /* margin-top:10%; */
+    /* font-weight: 400px; */    
+    padding: 20px;
+    margin-top:5px;
+}
+
+
+
+#branding h3 {
+    text-transform: uppercase;
+    margin-left: 30px;
+ }
+
+    
+/*
+ 
+h3:hover {
+    color:goldenrod;
+    cursor: pointer;
+}
+
+
+p{
+    font-size:15px;
+    font-weight: 300px;
+    margin-left: 60px;
+} */
+
+#branding p{
+    margin-left:40px;
+    font-size: 18px;
+}
+
+
+
+/*section*/
+
+.containerr .branding-2{
+
+    min-height: 100px;
+    background-color:#e6e6e6;
+    color:#13044e;
+    font-size: 20px;
+    /* text-align:center; */
+    /* margin-top:10%; */
+    font-weight: 400px; 
+    padding:20px;
+    margin-top: 5px;
+}
+
+
+
+.branding-2 p{
+    margin-left:40px;
+    font-size: 18px;
+    color:#13044e;
+    font-size: 18px;
+
+
+} 
+
+
+
+.link{
+    margin-left:40%;
+    margin-top: -40px;
+}
+
+
+.branding-2 a{
+
+    margin-left:20px;
+}
+
+
+
+
+
+
+/*footer*/
+
+
+footer  {
+    padding:10px;
+    text-align:center;
+    color:whitesmoke;
+    background-color: black;
+    font-weight:100px;
+
+    
+}
+
+@media screen and (max-width: 480px) {
+    .text {
+      font-size: 16px;
+    }
+    
+#main figure img {
+
+    border: solid blue 1px;
+    width:200px;
+    margin-left:20%;
+    margin-top: 0px;
+
+    
+} 
+
+#main figcaption {
+    color:grey;
+    margin-left: 80%;
+}
+#newsletter input{
+    width:240px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    margin-top: 20px;
+ }
+ .link{
+
+    margin-left:10%;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

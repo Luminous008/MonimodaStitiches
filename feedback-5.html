@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+
+    <!--header-->
+    <header>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top mb-5"> 
+            <div class="container">
+              <a class="navbar-brand" href="index.html"> <img id="logo" src="moni-logo1.jpg" width=" 50px" alt="monimoda logo"></a>
+    
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+    
+                  <li class="nav-item">
+                    <a class="nav-link"   href="index.html">Home</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link"  href="about-2.html">About</a>
+                  </li>
+    
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="current" href="#">Portfolio</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="portfolio-3.html"> First</a></li>
+                      <li><a class="dropdown-item"  href="portfolio-7.html">Second</a></li>
+                      <li><a class="dropdown-item"  href="video-page.html">Third</a></li>
+                      <li><a class="dropdown-item" id="current" href="feedback-5.html">Feedback</a></li>
+                    </ul>
+                  </li>
+                     
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact-4.html">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+        <!--Feedback Form-->
+        <section id="feedback">
+        <div class="containerr">
+                <fieldset>
+                    <legend>Feedback</legend>   
+                                        <P>Please give us the feedback by answer the following questions</p>
+                                        <p>Select your Gender</p>
+                        
+                        <form action="index.html">
+
+                                        <input type="radio" id="Male" name="Gender">
+                                        <label for="Male">Male</label> <br>
+                        
+                                        <input type="radio" id="Female" name="Gender">
+                                        <label for="Female">Female</label> <br>
+
+                                        <input type="radio" id="Other" name="Gender">
+                                        <label for="Other">Other</label> <br>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend> Please rate our service</legend>
+                                        <select id="service" name="service">
+                                        <option for="Excellent">Excellent</option>
+                                        <option for="Very Good">Very Good</option>
+                                        <option for="Good">Good</option>
+                                        <option for="Fair">Fair</option>
+                                        <option fot="Bad">Bad</option>
+                                        <br>
+                                        </select>
+                </fieldset>
+
+
+
+                <fieldset>
+                    <legend>Which of our branches you have visited  </legend>
+                                    <input type="checkbox" id="Nigera">
+                                    <label for="Nigeria">Nigeria</label> <br>
+
+                                    <input type="checkbox" id="United State">
+                                    <label for="United Sate">United State</label> <br>
+
+                                    <input type="checkbox" id="Kenya">
+                                    <label for="Kenya">Kenya</label> <br>
+
+                                    <input type="checkbox" id="Australia">
+                                    <label for="Australia">Australia</label> <br>
+
+                                    <input type="checkbox" id="Niger">
+                                    <label for="Niger">Niger</label> <br><br>
+
+                                    <label for="Tel">Tel:</label>
+                                    <input type="number" id="tel" name="tel" placeholder="Enter your phone Number" required> <br><br>
+                
+
+
+                
+                    <legend>Any other message for us</legend>
+                            <textarea id="message" placeholder="Entre your message" rows="10" cols="30" requied></textarea>
+
+                
+                            <br><br>
+
+                            <input class="one" type="submit" onclick="sentFeedback()" value="Send">
+                </fieldset>
+
+                        </form>
+        </div>
+        </section>
+
+
+
+
+        
+
+        <section id="newsletter">
+            <div class="containerr">
+                <h3>Subscribe to our newsletter</h3>
+                <form  action="includes/newsletter.inc.php" method="post" class="form" id="form">
+                        <input type="email" placeholder="Enter Email" id="email" name="email" required> 
+                        <button type="submit" class="button_1" onclick="trigger()">Subscribe</button>
+                    
+                    </form> 
+            </div>
+        </section>
+        
+        
+
+
+
+
+
+
+         <!--footer-->
+         <footer >
+            <p>Monimoda Stitches Copyright &copy; 2023.</p>
+         </fotter>
+
+
+
+
+         <script src="../bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+         
+    
+
+
+         <!-- <script lang="javascript" type="text/javascript" src="./js/script.js"></script> -->
+         <script src="logo.js"></script> 
+         <script src="feedback.js"></script>
+    </body>
+</html>
+    

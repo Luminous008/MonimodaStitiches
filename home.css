@@ -1,0 +1,296 @@
+body {
+    /* background-color: #13044e; */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    font:15/1.5px arial helvetica;
+    width: auto;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+   
+   }
+
+
+
+ #current{
+    color: red;
+    border-bottom: 1px solid;
+    
+}
+
+
+
+
+
+ /*RWD*/
+
+  .containerr{
+    width: 100%;
+    margin:auto;
+    
+}
+
+@media screen and (max-width:600px) and (orientation:landscape){
+    .containerr {
+        width:100%; 
+        margin:auto;
+    }
+}
+
+@media screen and (max-width:600px) and (orientation:portrait){
+    .containerr{
+        width:100%; 
+        margin:auto;
+    }
+    #slide figure img{
+
+        border:blue 1px solid;
+             width:100px;
+            height:100px;
+            margin-left: 15%;   
+            margin-bottom:20px;
+            padding: 20px; 
+            width: auto;
+            margin-right: 30%;
+                
+    }
+}
+
+@media(min-width:601px) and (max-width:768px){
+    .containerr {
+        width:100%; 
+        margin:auto;
+    }
+}
+
+
+
+
+ 
+
+
+
+
+
+/*showcase*/
+
+
+#showcase{
+        min-height: 600px;
+        background: url(moni.jpg);
+        background-repeat: no-repeat; 
+        background-position: center;
+        background-size: cover;
+        width:100%;
+        
+        
+}
+
+
+#showcase h2 {
+      margin-top: 15%;
+      font-size: 20px;
+        margin-bottom:10px;  
+      padding:40px; 
+      background: #ffffff;
+      color:#13044e;
+      width:450px;
+      margin-left: 40px;
+      font-weight:bold;
+      
+}
+
+
+/* .branding{
+    height: 600%;
+    padding-top: 100px; 
+} */
+
+
+#showcase p {
+    background: #ffffff;
+    color:#13044e;
+    font-size:18px;
+    font-weight:bold;
+    padding:40px;
+    margin-left: 40px;
+    margin-top:250px;
+    width:500px;
+}
+
+
+
+
+
+
+
+
+/*newsltter*/
+
+#newsletter{
+    background:gray;
+    border-bottom:orange 5px solid;
+    min-height:70px;
+    margin-top: -5%; 
+    padding: 20px; 
+    width: auto;
+    color:white;
+    
+}
+
+
+#newsletter h3{
+            /* float:left;  */
+        /* margin-top:15px; */
+        text-transform: uppercase;
+        font-size: 20px;
+        
+       
+}
+
+
+
+
+
+#newsletter form { 
+     /* margin-left: 70%;  */
+     float:right; 
+     margin-top:-40px;
+     /* margin-left: 90%; */
+
+
+}
+
+
+ .form button {
+    color:white;
+    background: red;
+}
+
+
+
+
+
+
+
+/*slide-Show*/
+#slide{
+    min-height: 300px;
+    /* background-position: center; */
+    /* background-color:light blue; */
+    /* text-align:center; */
+    
+}
+
+
+.slide-head{
+    background-color: #13044e;    
+    padding: 10px;
+    margin-top:none;
+    margin-bottom: 10px; 
+    /* width: 100%; */
+}
+
+
+.slide-head h3{
+    color:#ffffff;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+#image{
+    opacity:0;
+    animation: fade 1s ease-in-out forwards;
+    
+}
+
+#image :active{
+    opacity: 1;
+}
+
+
+@keyframes fade {
+    form{opacity :0;} to {opacity :1;}
+}
+
+
+
+  #slide figure img{
+
+    border:blue 1px solid;
+         width:900px;
+        height:400px;
+        margin-left: 15%;   
+        margin-bottom:20px;
+        padding: 20px; 
+        width: auto;
+        margin-left: 30%;
+            
+}
+
+
+
+
+
+footer  {
+    padding:10px;
+    text-align:center;
+    color:whitesmoke;
+    background-color:black;
+    font-weight:100px;
+    margin-top: 30px;
+    
+
+    
+}
+@media screen and (max-width: 480px) {
+    .text {
+      font-size: 16px;
+    }
+    #slide figure img{
+
+        border:blue 1px solid;
+             width:500px;
+            height:200px;
+            margin-left: 15%;   
+            margin-bottom:20px;
+            padding: 20px; 
+            width: auto;
+            margin-right: 30%;
+            margin-top: 20px;
+                
+    }
+    #newsletter{
+        background:gray;
+        border-bottom:orange 5px solid;
+        min-height:70px;
+        margin-top: -5%; 
+        padding: 20px; 
+        width: 400px;
+        color:white;
+        
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
