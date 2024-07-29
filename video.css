@@ -1,78 +1,5 @@
 
 
-/*    
-   ul {
-
-       margin-top: -60px;
-       list-style-type: none;
-   
-   }
-   
-   li {
-       margin-right:-130px;
-       text-decoration: none;
-       text-transform: uppercase;
-       font-size: 16px;
-       
-   }
-
-   header a:hover {
-    color:#13044e;
-    font-weight:bold;
-}
-
-
-
-   
-   .nav-one {
-       color:white;
-   }
-   
-   #current {
-       color:orange;
-   }
-   
-   
-   span {
-        color:orange;
-   }
-
-
-
-   /* .navigation-one {
-       margin-left: 40%;
-       font-weight: bolder;
-       color:red;
-   
-   }
-   
-   .nav-one{
-       margin-left: 20px;
-       text-decoration: none;
-   }
-   
-   
-   
-   li {
-       margin-left: 20%;
-       text-decoration: none;
-       margin-top: 24px;
-       font-size: 13px;
-   }
- */
-
-   /* .fig_2 {
-    margin-left:100px;
-   } */
-     
-/* 
-
-   h3:hover {
-    color:goldenrod;
-    cursor: pointer;
-
-} */
-
 body {
     background-color:black;
     background-repeat: no-repeat;
@@ -102,29 +29,6 @@ body {
     
 }
 
-
-
-
-@media(max-width:600px) and (orientation:landscape){
-    .container-1 {
-        width:1000px; 
-        margin:auto;
-    }
-}
-
-@media(max-width:600px) and (orientation:portrait){
-    .container-1 {
-        width:100%; 
-        margin:auto;
-    }
-}
-
-@media(min-width:601px) and (max-width:768px){
-    .container-1 {
-        width:100%; 
-        margin:auto;
-    }
-}
 
 
    .h3_catalog{
@@ -324,6 +228,86 @@ footer  {
 
 
 
+
+
+    
+
+
+
+
+
+@media(max-width:600px) and (orientation:landscape){
+    .container-1 {
+        width:1000px; 
+        margin:auto;
+    }
+}
+
+@media(max-width:600px) and (orientation:portrait){
+    .container-1 {
+        width:100%; 
+        margin:auto;
+    }
+
+
+
+
+
+    /*newsltter*/
+
+#newsletter{
+    background:gray;
+     padding: 15px; 
+    width:none;
+    color:white;
+    border-bottom:orange 5px solid;
+    min-height:100px;
+    /* font-size: 20px;
+    margin-top: 15px; */
+    
+}
+
+
+#newsletter h3{
+            /* float:left;  */
+        /* margin-top:15px; */
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-left: 10px;
+}
+
+
+
+
+
+#newsletter form { 
+     /* margin-left: 70%;  */
+     float:right; 
+     margin-top:5px;
+
+
+}
+
+
+ 
+
+#newsletter input {
+    width:250px;
+    /* text-align: center; */
+    /* border-bottom: 2px solid white; */
+    font-size: 18px;
+    height: 25px;
+    padding:4px;
+}
+
+}
+
+@media(min-width:601px) and (max-width:768px){
+    .container-1 {
+        width:100%; 
+        margin:auto;
+    }
+}
 
 
 

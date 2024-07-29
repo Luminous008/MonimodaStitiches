@@ -30,43 +30,6 @@ body {
     
 }
 
-@media screen and (max-width:600px) and (orientation:landscape){
-    .containerr {
-        width:100%; 
-        margin:auto;
-    }
-}
-
-@media screen and (max-width:600px) and (orientation:portrait){
-    .containerr{
-        width:100%; 
-        margin:auto;
-    }
-    #slide figure img{
-
-        border:blue 1px solid;
-             width:100px;
-            height:100px;
-            margin-left: 15%;   
-            margin-bottom:20px;
-            padding: 20px; 
-            width: auto;
-            margin-right: 30%;
-                
-    }
-}
-
-@media(min-width:601px) and (max-width:768px){
-    .containerr {
-        width:100%; 
-        margin:auto;
-    }
-}
-
-
-
-
- 
 
 
 
@@ -100,11 +63,6 @@ body {
       
 }
 
-
-/* .branding{
-    height: 600%;
-    padding-top: 100px; 
-} */
 
 
 #showcase p {
@@ -153,7 +111,7 @@ body {
 
 
 #newsletter form { 
-     /* margin-left: 70%;  */
+    
      float:right; 
      margin-top:-40px;
      /* margin-left: 90%; */
@@ -162,10 +120,21 @@ body {
 }
 
 
- .form button {
+#newsletter input{
+    width:240px;
+   text-align: center;
+   border-bottom: 2px solid white;
+   font-size: 18px;
+   margin-top: -16px;
+}
+
+
+
+
+#newsletter button {
     color:white;
     background: red;
-}
+    }
 
 
 
@@ -224,17 +193,15 @@ body {
   #slide figure img{
 
     border:blue 1px solid;
-         width:900px;
-        height:400px;
-        margin-left: 15%;   
+         width:500px;
+        height:600px;
+        /* margin-left: -15%;    */
         margin-bottom:20px;
         padding: 20px; 
-        width: auto;
-        margin-left: 30%;
+        width: 80%;
+        margin-left: 10%;
             
 }
-
-
 
 
 
@@ -249,34 +216,139 @@ footer  {
 
     
 }
-@media screen and (max-width: 480px) {
-    .text {
-      font-size: 16px;
+
+
+
+
+
+@media screen and (max-width:600px) and (orientation:landscape){
+    .containerr {
+        width:100%; 
+        margin:auto;
     }
-    #slide figure img{
+}
+
+@media screen and (max-width:600px) and (orientation:portrait){
+    .containerr{
+        width:100%; 
+        margin:auto;
+    }
+
+
+
+
+    #showcase h2 {
+        margin-top: 20%;
+        font-size: 20px;
+          margin-bottom:10px;  
+        padding:40px; 
+        /* background: #ffffff; */
+        color:#13044e;
+        width:100%;
+        margin-left: 10px;
+        font-weight:bold;
+        
+    }
+    
+    
+    
+    
+    #showcase p {
+      background: #ffffff;
+      color:#13044e;
+      font-size:18px;
+      font-weight:bold;
+      padding:40px;
+      margin-left: 10px;
+      margin-top:250px;
+      width:100%;
+    }
+    
+
+        /*newsltter*/
+
+        #newsletter{
+            background:gray;
+            border-bottom:orange 5px solid;
+            min-height:100px;
+            margin-top: -5%; 
+            padding: 20px; 
+            width: 100%;
+            color:white;
+            
+        }
+
+
+#newsletter h3{
+            /* float:left;  */
+        margin-left:35px;
+        text-transform: uppercase;
+        font-size: 20px;
+        
+       
+    }
+
+    #newsletter form { 
+     margin-left: -30%; 
+     margin-top:5px;
+     /* margin-left: 90%; */
+
+
+    }
+
+
+
+    #newsletter input{
+        width:240px;
+       text-align: center;
+       border-bottom: 2px solid white;
+       font-size: 18px;
+       margin-top: -16px;
+    }
+    
+
+
+
+    .text {
+        font-size: 16px;
+      }
+
+
+      /* #slide figure img{
+  
+          
+              height:200px;
+              margin-left: 15%;   
+              margin-bottom:20px;
+              padding: 20px; 
+              width: 100%;
+              margin-right: 30%;
+              margin-top: 20px;
+                  
+      } */
+
+
+
+      #slide figure img{
 
         border:blue 1px solid;
              width:500px;
-            height:200px;
-            margin-left: 15%;   
+            height:600px;
+            /* margin-left: -15%;    */
             margin-bottom:20px;
             padding: 20px; 
-            width: auto;
-            margin-right: 30%;
-            margin-top: 20px;
+            width: 80%;
+            margin-left: 10%;
                 
     }
-    #newsletter{
-        background:gray;
-        border-bottom:orange 5px solid;
-        min-height:70px;
-        margin-top: -5%; 
-        padding: 20px; 
-        width: 400px;
-        color:white;
-        
+}
+
+@media(min-width:601px) and (max-width:768px){
+    .containerr {
+        width:100%; 
+        margin:auto;
     }
-  }
+}
 
 
 
@@ -294,3 +366,6 @@ footer  {
 
 
     
+
+
+

@@ -110,33 +110,11 @@
 
 
             /*RWD*/
-            .containerr{
+            .containerr-1{
                 width:1000px; 
                 margin:auto;
                 overflow:hidden;
             }
-            
-            @media(max-width:600px) and (orientation:landscape){
-                .containerr {
-                    width:100%; 
-                    margin:auto;
-                }
-            }
-            
-            @media(max-width:600px) and (orientation:portrait){
-                .containerr {
-                    width:100%; 
-                    margin:auto;
-                }
-            }
-            
-            @media(min-width:601px) and (max-width:768px){
-                .containerr {
-                    width:100%; 
-                    margin:auto;
-                }
-            }
-
 
 
 
@@ -208,7 +186,7 @@
 }
 
 
-
+/* 
 #newsletter input{
     width:240px;
     text-align: center;
@@ -216,7 +194,7 @@
     font-size: 1spx;
     margin-top: 2opx;
 
-}
+} */
 
 
 #newsletter .button_1{
@@ -239,4 +217,100 @@ footer  {
 
     
 }
+
+
+
+
+
+
+
+
+@media(max-width:600px) and (orientation:landscape){
+    .containerr-1 {
+        width:100%px; 
+        margin:auto;
+    }
+}
+
+@media(max-width:600px) and (orientation:portrait){
+    .containerr-1 {
+        width:100%; 
+        margin:auto;
+    }
+
+    #feedback{
+        min-height: 600px;
+        background-color: #e6e6e6;
+        padding:10px;
+        font-size:20px;
+        font-weight: 200px;
+          margin-top: 80px;
+
+    }
+
+
+    #feedback p{
+        width:100%;
+    }
+
+
+
+
+    /*newsltter*/
+
+    #newsletter{
+    background:gray; 
+    width:none;
+    border-bottom:orange 5px solid;
+    min-height:100px;
+    margin-top: 15px;
+    } 
+
+
+    
+
+
+
+    #newsletter h3{
+   
+        color:white;
+         font-size: 20px;
+         padding: 15px;
+         margin-left: 40px;
+    }
+
+
+    #newsletter form { 
+     margin-left:-10%;
+     margin-top:-3%;
+
+
+    }
+
+ 
+
+    #newsletter input {
+    width:250px;
+    /* text-align: center; */
+    /* border-bottom: 2px solid white; */
+    font-size: 15px;
+    margin-left:10px;
+    
+
+    } 
+
+
+
+}
+
+@media(min-width:601px) and (max-width:768px){
+    .containerr-1 {
+        width:100%; 
+        margin:auto;
+    }
+}
+
+
+
+
 
